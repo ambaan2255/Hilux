@@ -43,13 +43,13 @@ cmd(
                 timeZone: "Asia/Kolkata"
             })
             .split(",");
-            /* let menu = `╭──── ⋅⋅ ─── ✩ ─── ⋅⋅ ────╮
+            /*let menu = `╭──── ⋅⋅ ─── ✩ ─── ⋅⋅ ────╮
  | • Prefix : ${m.prefix}
  | •  Date : ${date}
  | •  Time : ${time}
  | •  Commands : ${commands.length}
 ╰──── ⋅⋅ ─── ✩ ─── ⋅⋅ ────╯${readMore}\n`;*/
-          /*let menu = `╔═════════════════╗
+          let menu = `╔═════════════════╗
                 *𝛻𝛪𝛲𝛯𝑅-𝛸*\n╚═════════════════╝
 ╔═════════════════╗
 ╠» Prefix : ${m.prefix}
@@ -57,12 +57,12 @@ cmd(
 ╠» Date : ${date}
 ╠» Time : ${time}
 ╠» Commands : ${commands.length}
-╚═════════════════╝ \n${readMore}\n`*/
+╚═════════════════╝ \n${readMore}\n`
         /*  let menu = `
    _Prefix : ${m.prefix}_
    _Uptime : ${await m.uptime()}_
    _Commands : ${commands.length}_\n${readMore}`*/
-            let menu = `\n   WhatsApp Bot\n\n${readMore}`
+           // let menu = `\n   WhatsApp Bot\n\n${readMore}`
             let cmnd = [];
             let cmd;
             let type = [];
